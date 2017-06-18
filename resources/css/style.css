@@ -1,10 +1,23 @@
 body {
 	font-family: Helvetica;
 	text-align: center;
+	margin: auto;
 }
 
 header {
 	background-image: url(../images/the-flatiron-building.png);
+}
+
+header nav {
+	margin-left: -40px;
+
+}
+
+header li a {
+	font-size: 18px;
+	line-height: 30px;
+	font-weight: bold;
+	color: white;
 }
 
 h1 {
@@ -45,10 +58,23 @@ p {
 
 footer {
 	background-color: dimgray;
+	height: 30px;
+	text-align: left;
 }
 
-footer p {
+#copyright	 {
 	font-size: 11px;
 	color: white;
 	float: left;
+	vertical-align: middle;
+}
+
+footer li a {
+	font-size: 11px;
+	font-weight: bold;
+	color: white;
+} 
+
+footer li {
+		display: inline-block;
 }
